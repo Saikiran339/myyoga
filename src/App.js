@@ -1,6 +1,7 @@
 import React from "react";
 import './style.css';
 import './main.js';
+import $ from 'jquery';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import slide from './img/slide-1.jpg';
@@ -41,9 +42,9 @@ function App() {
       <div class="container">
         <a  class="navbar-brand">Yoga </a>
         <button class="navbar-toggler"type="button"
-        data-toggle="collapse"data-target="#myNavbar"
-        aria-controls="myNav"aria-expanded="false"
-        aria-label="Toggle navigation">
+        data-toggle="collapse"
+        data-target="#myNav"aria-controls="myNav"aria-expanded="false"ar
+        ia-label="Toggle navigation">
           <span></span>Menu
         </button>
         <div class="collapse navbar-collapse" id="myNav">
@@ -277,7 +278,375 @@ function App() {
       </div>
     </section>
 
+    <section class="pricing-section pt-5">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Pricing Plans</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="price-item beginner">
+              <div class="price-top">
+                <h4>Beginner</h4>
+              </div>
+              <div class="price-sec">
+                <h3>600</h3>
+                <p>Per Month</p>
+              </div>
+              <ul>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+              </ul>
+              <a href="" class="site-btn sb-gradient">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="price-item intermediate">
+              <div class="price-top">
+                <h4>intermediate</h4>
+              </div>
+              <div class="price-sec">
+                <h3>800</h3>
+                <p>Per Month</p>
+              </div>
+              <ul>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+              </ul>
+              <a href="" class="site-btn sb-gradient">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="price-item Advance">
+              <div class="price-top">
+                <h4>Advance</h4>
+              </div>
+              <div class="price-sec">
+                <h3>800</h3>
+                <p>Per Month</p>
+              </div>
+              <ul>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+              </ul>
+              <a href="" class="site-btn sb-gradient">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="price-item Professional">
+              <div class="price-top">
+                <h4>Professional</h4>
+              </div>
+              <div class="price-sec">
+                <h3>1000</h3>
+                <p>Per Month</p>
+              </div>
+              <ul>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+                <li>Lorem Ipsum </li>
+              </ul>
+              <a href="" class="site-btn sb-gradient">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="text-dark text-uppercase">
+              Our Gallery
+            </h1>
+          </div>
+          
+        </div>
+
+        <div class="row mb-4 first-row align items-end">
+          <div class="col-lg-3">
+            <a href="./img/img-1.jpg" data-lightbOX="Yoga"
+            data-title="image-title">
+              <img src={img1}class="img-thumbnail gallery"></img>
+            </a>
+          </div>
+
+          <div class="col-lg-3">
+            <a href="./img/img-2.jpg" data-lightbOX="Yoga"
+            data-title="image-title">
+              <img src={img2}class="img-thumbnail gallery"></img>
+            </a>
+          </div>
+
+          <div class="col-lg-3">
+            <a href="./img/img-3.jpg" data-lightbOX="Yoga"
+            data-title="image-title">
+              <img src={img3}class="img-thumbnail gallery"></img>
+            </a>
+          </div>
+
+          <div class="col-lg-3">
+            <a href="./img/img-4.jpg" data-lightbOX="Yoga"
+            data-title="image-title">
+              <img src={img4}class="img-thumbnail gallery"></img>
+            </a>
+          </div>
+
+          
+        </div>
+
+        <div class="row mb-4 second-row align-items-end">
+          <div class="col-lg-3">
+            <a href="./img/img-5.jpg"
+            data-lightbox="yoga"data-title="image-title">
+              <img src={img5} class="img-thumbnail gallery" />
+            </a>
+          </div>
+
+          <div class="col-lg-3">
+            <a href="./img/img-6.jpg"
+            data-lightbox="yoga"data-title="image-title">
+              <img src={img6} class="img-thumbnail gallery" />
+            </a>
+          </div>
+
+          <div class="col-lg-3">
+            <a href="./img/img-7.jpg"
+            data-lightbox="yoga"data-title="image-title">
+              <img src={img7} class="img-thumbnail gallery" />
+            </a>
+          </div>
+
+          <div class="col-lg-3">
+            <a href="./img/img-8.jpg"
+            data-lightbox="yoga"data-title="image-title">
+              <img src={img8} class="img-thumbnail gallery" />
+            </a>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    {/* <section id="faq" class="faq section-bg pt-5">
+          <div class="container">
+            <div class="section-title">
+              <h2>F.A.Q</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+            </div>
+            <div class="faq-list">
+              <ul>
+                <i class="far fa-question-circle icon-help"></i>
+                <a href="#faq-list-1" data-toggle="collapse" class="collapsed">Lorem Ipsum 1
+                <i class="fas fa-chevron-down icon-show"></i>
+                <i class="fas fa-chevron-up icon-close"></i>
+                </a>
+                <div class="collapse show" id="faq-list-1" data-parent=".faq-list">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+                </div>
+              </ul>
+            </div>
+          </div>
+    </section>  */}
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div>
+          <div class="widget">
+            <h5>About Yoga Life</h5>
+            <p>Lorem Ipsum, dolor sit amet consectetur adipisicing elit, molestiae, ut!.</p>
+          </div>
+        </div>
+        <div>
+          <div class="widget">
+            <h5>Information</h5>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Lorem Ipsum</a></li>
+              <li><a href="">Lorem Ipsum</a></li>
+              <li><a href="">Lorem Ipsum</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div>
+          <div class="widget">
+            <h5>Yoga Life</h5>
+            <p>Lorem Ipsum, dolor sit amet consectetur</p>
+            <ul>
+              <li>
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-calendar-alt fa-stack-1x fa-inverse"></i>
+                </span>
+                Monday-Friday, 8am-8pm
+              </li>
+              <li>
+                <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                </span>
+                9876543210
+              </li>
+              <li>
+                <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                info@test.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div>
+          <div class="widget">
+            <h5>Our Lcation</h5>
+            <p>Hyderabad</p>
+          </div>
+        </div>
+        <div>
+          <div class="widget">
+            <h5>Follow Us</h5>
+            <ul class="social-network">
+              <li class="social-facebook">
+                <a href="">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="social-twitter">
+                <a href="">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="social-instagram">
+                <a href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sub-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6col-md-6 col-lg-6">
+          <div>
+            <div class="text-left">
+              <p>&copy; copyright - Yoga. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-right">
+          <div class="credits">
+            Designed By Lorem Ipsum
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {/* <section class="gallery">
       <div class="container">
         <div class="title">
           <div class="row">
@@ -344,7 +713,7 @@ function App() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     </div>
   );
 }
