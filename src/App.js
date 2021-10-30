@@ -40,32 +40,33 @@ function App() {
 
     <nav class="navbar navbar-expand-lg bg-color" id="mynavbar">
       <div class="container">
-        <a  class="navbar-brand">Yoga </a>
+        <a href="#" class="navbar-brand">Yoga </a>
         <button class="navbar-toggler"type="button"
         data-toggle="collapse"
-        data-target="#myNav"aria-controls="myNav"aria-expanded="false"ar
-        ia-label="Toggle navigation">
+        data-target="#myNav"aria-controls="myNav"aria-expanded="false"
+        aria-label="Toggle navigation">
           <span></span>Menu
-        </button>
+          </button>
         <div class="collapse navbar-collapse" id="myNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="" class="nav-link">Home</a> 
+              <a href="#" class="nav-link">Home</a> 
             </li> 
             <li class="nav-item">
-              <a href="" class="nav-link">About</a>
+              <a href="#" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Services</a>
+              <a href="#" class="nav-link">Services</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Gallery</a>
+              <a href="#" class="nav-link">Gallery</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">contact</a>
+              <a href="#" class="nav-link">contact</a>
             </li>
           </ul>
         </div>
+        
       </div>
     </nav>
 
@@ -119,14 +120,14 @@ function App() {
               </div>
                 {/* </ReactSwipe> */}
             </div>
-            <a href="#hero-slider" class="carousel-control-prev" role="button" data-slide="prev">
+            {/* <a href="#hero-slider" class="carousel-control-prev" role="button" data-slide="prev">
               <i class="fas fa-arrow-circle-left"></i>
 
             </a>
             <a href="#hero-slider" class="carousel-control-next"role="button" data-slide="next">
               <i class="fas fa-arrow-circle-right"></i>
 
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -136,7 +137,7 @@ function App() {
       <div class="container">
         <div class="section-title text-center">
           <h2>Welcome To Yoga</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+          <p> “Yoga has never been about the stretch; it’s always been about the reach.”</p>
         </div>
         <div class="row">
           <div class="col-lg-6">
@@ -150,8 +151,8 @@ function App() {
                 <i class="fab fa-diaspora fa-2x"></i>
               </div>
               <div class="about-text">
-                <h4>Lorem ipsum 1</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+                <h4>Full Rejuvenation</h4>
+                <p>”The very heart of yoga practice is ‘abyhasa’ – steady effort in the direction you want to go.”</p>
               </div>
             </div>
 
@@ -160,8 +161,8 @@ function App() {
                 <i class="fas fa-cannabis fa-2x"></i>
               </div>
               <div class="about-text">
-                <h4>Lorem ipsum 2</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+                <h4>Extension of Spring</h4>
+                <p>”Yoga means addition – addition of energy, strength and beauty to body, mind and soul.”</p>
               </div>
             </div>
 
@@ -170,8 +171,8 @@ function App() {
                 <i class="fab fa-d-and-d fa-2x"></i>
               </div>
               <div class="about-text">
-                <h4>Lorem ipsum 3</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+                <h4>Aganist Aging</h4>
+                <p>"For as rich as you are, it's much better by far, to be young ata heart"</p>
               </div>
             </div>
 
@@ -185,8 +186,7 @@ function App() {
       <div class="container">
         <div class="section-title">
           <h2>Services</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
+          <p>“The journey of Yoga and Meditation teaches the purpose of human life. Life is enriched with the transformation of body, mind and soul.” 
           </p>
         </div>
         <div class="row">
@@ -196,10 +196,9 @@ function App() {
                 <i class="fas fa-cannabis" style={{color:"#ff689b"}}></i>
               </div>
               <h4 class="title">
-                  <a href="">Lorem Ipsum</a></h4>
+                  <a href="">Health Yoga</a></h4>
                   <p class="description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
-                  Lorem ipsum dolor
+                  "An Integrated and systematic approach to yoga has a positive effect on holistic health."
                   </p>
             </div>
           </div>
@@ -210,10 +209,9 @@ function App() {
                 <i class="fab fa-d-and-d" style={{color:"#e9bf06"}}></i>
               </div>
               <h4 class="title">
-                  <a href="">Lorem Ipsum</a></h4>
+                  <a href="">Power Yoga</a></h4>
                   <p class="description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
-                  Lorem ipsum dolor
+                  "Power Yoga is a beginner-friendly, elective style of HATHA Yoga with scientific base to help you out."
                   </p>
             </div>
           </div>
@@ -224,10 +222,9 @@ function App() {
                 <i class="fab fa-envira" style={{color:"#3fcdc7"}}></i>
               </div>
               <h4 class="title">
-                  <a href="">Lorem Ipsum</a></h4>
+                  <a href="">Yoga Mountain</a></h4>
                   <p class="description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
-                  Lorem ipsum dolor
+                  "Mountain pose helps improve your posture, relieve sciatica pain, and tones your core and leg muscles."
                   </p>
             </div>
           </div>
@@ -238,10 +235,9 @@ function App() {
                 <i class="fas fa-feather-alt" style={{color:"#41cf2e"}}></i>
               </div>
               <h4 class="title">
-                  <a href="">Lorem Ipsum</a></h4>
+                  <a href="">Health Yoga</a></h4>
                   <p class="description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
-                  Lorem ipsum dolor
+                  "An Integrated and systematic approach to yoga has a positive effect on holistic health."
                   </p>
             </div>
           </div>
@@ -252,10 +248,9 @@ function App() {
                 <i class="fas fa-leaf" style={{color:"#22ffed"}}></i>
               </div>
               <h4 class="title">
-                  <a href="">Lorem Ipsum</a></h4>
+                  <a href="">Power Yoga</a></h4>
                   <p class="description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
-                  Lorem ipsum dolor
+                  "Power Yoga is a beginner-friendly, elective style of HATHA Yoga with scientific base to help you out."
                   </p>
             </div>
           </div>
@@ -266,10 +261,9 @@ function App() {
                 <i class="fas fa-life-ring" style={{color:"#4680ff"}}></i>
               </div>
               <h4 class="title">
-                  <a href="">Lorem Ipsum</a></h4>
+                  <a href="">Yoga Mountain</a></h4>
                   <p class="description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?
-                  Lorem ipsum dolor, 
+                  "Mountain pose helps improve your posture, relieve sciatica pain, and tones your core and leg muscles." 
                   </p>
             </div>
           </div>
@@ -282,7 +276,7 @@ function App() {
       <div class="container">
         <div class="section-title text-center">
           <h2>Pricing Plans</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. pariatur iste debitisas?</p>
+          <p>“Let go of something to gain everything; let go of fraction to gain the whole.”</p>
         </div>
         <div class="row">
           <div class="col-lg-3 col-sm-6">
@@ -519,7 +513,7 @@ function App() {
       <div class="col-sm-6 col-md-4">
         <div>
           <div class="widget">
-            <h5>Our Lcation</h5>
+            <h5>Our Location</h5>
             <p>Hyderabad</p>
           </div>
         </div>
